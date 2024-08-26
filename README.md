@@ -52,7 +52,7 @@ docker run -e SA_PASSWORD=YourStrong(!)Passw0rd -p 1433:1433 -d [name[:tag]]
 ```
 
 - **`-e SA_PASSWORD=YourStrong(!)Passw0rd`**: Sets the `sa` user password.
-- **`-p 1433:1433`**: Maps the SQL Server port to the host machine.
+- **`-p 1433:1433`**: Maps the SQL Server port to port 1433 on the host machine.
 
 ### Sample `docker-compose.yml`
 
